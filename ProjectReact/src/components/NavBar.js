@@ -80,6 +80,7 @@ const NavBar = ({ checkLogIn, login, ...props }) => {
               <FaTimesCircle
                 className="closeMenuButton"
                 onClick={() => setshowMenuBtn(false)}
+                style={{ cursor: "pointer" }}
               />
             </li>
             <li className="chooseLiHover">
@@ -167,6 +168,7 @@ const NavBar = ({ checkLogIn, login, ...props }) => {
             showCart={showCart}
             login={login}
             setShowLightBox={setShowLightBox}
+            
           />
         ) : (
           <NavBarSign
